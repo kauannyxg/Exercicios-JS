@@ -6,12 +6,12 @@ font-family:Arial;
 }
 
 body{
-background:#310049;
+background:#33024b;
 color:white;
 }
 
 header{
-background:#58008f;
+background:#5c0096;
 padding:25px;
 text-align:center;
 }
@@ -24,7 +24,7 @@ gap:20px;
 
 .menu{
 width:320px;
-background:#37005f;
+background:#460079;
 padding:20px;
 border-radius:10px;
 height:80vh;
@@ -41,7 +41,7 @@ width:100%;
 padding:10px;
 margin-bottom:8px;
 border:none;
-background:#9639e85e;
+background:#9339e15e;
 color:white;
 border-radius:6px;
 cursor:pointer;
@@ -50,7 +50,7 @@ transition:0.3s;
 }
 
 .menu button:hover{
-background:#780fb5;
+background:#7a10b7;
 }
 
 .codigo-area{
@@ -80,7 +80,7 @@ min-height:100vh;
 /* HEADER */
 
 header{
-background:#111184;
+background:#711184;
 padding:25px;
 text-align:center;
 }
