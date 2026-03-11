@@ -63,3 +63,148 @@ border-radius:10px;
 .codigo-area h2{
 margin-bottom:15px;
 }
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+min-height:100vh;
+}
+
+/* HEADER */
+
+header{
+background:#111184;
+padding:25px;
+text-align:center;
+}
+
+header h1{
+font-size:28px;
+}
+
+/* CONTAINER */
+
+.container{
+display:flex;
+gap:20px;
+padding:20px;
+}
+
+/* MENU */
+
+.menu{
+width:320px;
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+height:80vh;
+overflow-y:auto;
+}
+
+.menu h2{
+margin-top:15px;
+margin-bottom:10px;
+}
+
+.menu button{
+width:100%;
+padding:10px;
+margin-bottom:8px;
+border:none;
+background:#2563eb;
+color:white;
+border-radius:6px;
+cursor:pointer;
+font-size:14px;
+transition:0.3s;
+}
+
+.menu button:hover{
+background:#1d4ed8;
+}
+
+/* AREA PRINCIPAL */
+
+.codigo-area{
+flex:1;
+background:#020617;
+padding:25px;
+border-radius:10px;
+}
+
+.codigo-area h2{
+margin-bottom:15px;
+}
+
+/* ---------------- */
+/* RESPONSIVIDADE */
+/* ---------------- */
+
+/* TABLET */
+
+@media (max-width: 900px){
+
+.container{
+flex-direction:column;
+}
+
+.menu{
+width:100%;
+height:auto;
+}
+
+.codigo-area{
+width:100%;
+}
+
+}
+
+/* CELULAR */
+
+@media (max-width: 600px){
+
+header h1{
+font-size:22px;
+}
+
+.container{
+padding:10px;
+gap:10px;
+}
+
+.menu{
+padding:15px;
+}
+
+.menu button{
+font-size:13px;
+padding:9px;
+}
+
+.codigo-area{
+padding:15px;
+}
+
+}
+
+/* CELULAR PEQUENO */
+
+@media (max-width: 400px){
+
+header h1{
+font-size:18px;
+}
+
+.menu button{
+font-size:12px;
+padding:8px;
+}
+
+}
