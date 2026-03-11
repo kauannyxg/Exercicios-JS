@@ -118,7 +118,7 @@ width:100%;
 padding:10px;
 margin-bottom:8px;
 border:none;
-background:#2563eb;
+background:#6c00b4;
 color:white;
 border-radius:6px;
 cursor:pointer;
@@ -127,7 +127,7 @@ transition:0.3s;
 }
 
 .menu button:hover{
-background:#1d4ed8;
+background:#ac1dd8;
 }
 
 /* AREA PRINCIPAL */
